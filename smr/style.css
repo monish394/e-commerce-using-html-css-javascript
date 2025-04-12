@@ -1,0 +1,75 @@
+
+
+body{
+  background-color: rgb(255, 255, 255);
+  height: 10%;
+  
+  
+}
+label,small{
+    color: aliceblue;
+}
+h2::first-letter{
+    font-size: 2em;
+}
+.box{
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    border: 1px solid rgb(114, 113, 113);
+   margin-top: 150px;
+    height: 400px;
+    width: 400px;
+   margin-left: 35%;
+   width: fit-content;
+   
+   
+
+}
+input{
+    width: 15vw;
+    height:30px;
+   border-radius: 10px;
+   
+   scale: auto;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   box-shadow: 3px 3px 3px rgb(0, 0, 0);
+   
+
+
+}
+h2,small:hover{
+    cursor: pointer;
+    
+}
+button{
+  
+    border-radius: 20px;
+    background-color: rgb(5, 5, 5);
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: black;
+   scale: 1;
+   transition: 0.5;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+ color: rgb(15, 14, 14);
+ scale:1.2;
+ transition: 0.5s;
+}
+input:hover{
+    background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+scale: 1.1;
+transition: 1s;
+}
+
+
